@@ -1,0 +1,15 @@
+.click-me {
+    font-size:28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+.click-me:nth-of-type(1){
+    background: rgb(0,0,0);
+    color:rgb(255,255,255);
+}
+
+.click-me:nth-of-type(2){
+    background: #ffff00;
+    color: #000;
+}
+
