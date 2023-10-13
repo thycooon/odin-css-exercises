@@ -25,3 +25,56 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* My solution */
+
+body {
+  display:flex;
+  flex-direction: column;
+}
+
+.header, .footer {
+  display:flex;
+  justify-content: space-between;
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap:2vw;
+  list-style-type: none;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(120,120,120);
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  flex-grow:1;
+  gap:1vh;
+}
+
+.buttons {
+  display: flex;
+  gap:2vw;
+}
+
+button {
+  padding: 0.7vh 2vh;
+}
+
+.footer {
+  background-color: #eee;
+}
+
+/* 
+- The buttons have an appropriate amount of padding.
+- There is space between the logo, input and buttons.
+
+*/
